@@ -1,0 +1,20 @@
+{
+  "name": "csssamples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "sass --watch sass/app.scss css/app.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdouramadan/cssSamples.git"
+  },
+  "keywords": [],
+  "author": "abdalrahman ramadan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdouramadan/cssSamples/issues"
+  },
+  "homepage": "https://github.com/abdouramadan/cssSamples#readme"
+}
