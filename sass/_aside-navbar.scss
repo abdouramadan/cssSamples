@@ -1,0 +1,22 @@
+/* Aside Navbar */
+.aside-navbar {
+    padding-top: 2rem;
+    border-top: 2px solid $color-white;
+    background-color: $color-main;
+
+    .link {
+        height: 60px;
+        padding-left: 1.3rem;
+        border-radius: 30px;
+        color: $color-white;
+        margin-bottom: 1rem;
+        
+        &.active, &:hover {
+            // box-shadow: inset 4px 4px 6px #881ee9, 
+            //             inset -4px -4px 6px #c386fb, 
+            //             inset 4px 4px 6px #881ee9, 
+            //             -4px -4px 6px #b564ff;
+            background-color: $nav-link-color;
+        }
+    }
+}

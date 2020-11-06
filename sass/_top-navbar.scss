@@ -1,0 +1,28 @@
+// Top Navbar
+.top-navbar {
+    background-color: $color-main;
+
+    .logo {
+        color: $color-white;
+    }
+    
+    .top-navbar-list {
+        height: 100%;
+
+        .link {
+            // margin-left: 1rem;
+            color: $color-white;
+            width: 120px;
+            height: 100%;
+
+            &.active, &:hover {
+                background-color: $nav-link-color;
+                border-bottom: 2px solid $color-white;
+                // box-shadow: inset 4px 4px 6px #881ee9, 
+                //             inset -4px -4px 6px #c386fb, 
+                //             inset 4px 4px 6px #881ee9, 
+                //             -4px -4px 6px #b564ff;
+            }
+        }
+    }
+}

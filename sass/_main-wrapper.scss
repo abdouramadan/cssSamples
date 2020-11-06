@@ -1,0 +1,29 @@
+/* Main Wrapper */
+.main-wrapper {
+    min-height: 100vh;
+
+    // Top Navbar
+    .top-navbar {
+        height: 75px;
+        width: 100%;
+        position: fixed;
+        padding: 0 2rem;
+    }
+
+    // Aside Navbar
+    .aside-navbar {
+        width: 200px;
+        height: calc(100vh - 75px);
+        position: fixed;
+        float: left;
+        margin-top: 75px;
+    }
+
+    // Content Wrapper
+    .content-wrapper {
+        width: calc(100% - 200px);
+        min-height: calc(100vh - 75px);
+        margin-top: 75px;
+        float: right;
+    }
+}
